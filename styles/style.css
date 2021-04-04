@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box; 
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
+  max-width: 1440px;
+  min-width: 350px;
+  width: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+
+/*header*/
+
+.header {
+  background: #000;
+  margin: 0;
+  width: 100%;
+}
+
+.header__logo-image{
+  padding: 2.1vw;
+}
+
+.header__content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.header__nav-container {
+  padding: 1.5vw;
+}
+
+.header__nav-items {
+  display: flex;
+}
+
+.navigation {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation-link {
+  padding: 2vw;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #939699;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.5px;
+}
+
+.header__button {
+  padding: 1.5vw 2.1vw;
+}
+
+.header__button-text {
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.button-log-in {
+  border: none;
+  background: #000;
+  color: #fff;
+  padding: 0 1.4vw;
+}
+
+.button-get-started {
+  padding: 1vw 1.5vw;
+  background: #fff;
+}
+
+/*section1*/
+
+.first-section-container {
+  width: 100%;
+  min-height: 800px;
+  background: no-repeat url('../imgs/section1.png') ;
+  background-size: cover;
+  color: #fff;
+}
+
+.first-section__button-group {
+  width: max-content;
+  margin-bottom: 1.3vw;
+}
+
+.first-section__btn {
+  border: none;
+  background: transparent;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.first-section-text__button-sell {
+  margin-right: 3.1vw;
+}
+
+.first-section-text {
+  display: flex;
+  flex-direction: column;
+  padding: 10.2vw 45.2vw 5vw 3vw;
+}
+
+.first-section-text__title {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 5vw;
+  letter-spacing: 0.4vw;
+  margin-top: 0;
+  margin-bottom: 1.1vw;
+}
+
+.first-section-text__description {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  word-spacing: 2px;
+  line-height: 2.31vw;
+  margin-bottom: 3.5vw;
+  width: 36vw;
+}
+
+.first-section-text__button-start {
+  width: max-content;
+  text-transform: uppercase;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #000;
+  background-color: #fff;
+  padding: 1.5vw 2vw;
+}
+
+/*section2*/
+
